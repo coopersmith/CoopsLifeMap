@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Location history from 05/31/2013 to 06/01/2013</name>
+<open>1</open>
+<description/>
+<StyleMap id="multiTrack">
+<Pair>
+<key>normal</key>
+<styleUrl>#multiTrack_n</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#multiTrack_h</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="multiTrack_n">
+<IconStyle>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="multiTrack_h">
+<IconStyle>
+<scale>1.2</scale>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>8</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Latitude User</name>
+<description>Location history for Latitude User from 05/31/2013 to 06/01/2013</description>
+<styleUrl>#multiTrack</styleUrl>
+<gx:Track>
+<altitudeMode>clampToGround</altitudeMode>
+<when>2013-05-31T10:52:40.749-07:00</when>
+<gx:coord>-73.9666809 40.7200155 18</gx:coord>
+<when>2013-05-31T10:55:20.150-07:00</when>
+<gx:coord>-73.9701072 40.708926 5</gx:coord>
+<when>2013-05-31T10:58:18.499-07:00</when>
+<gx:coord>-73.9688966 40.7073833 15</gx:coord>
+<when>2013-05-31T11:01:11.821-07:00</when>
+<gx:coord>-73.9904798 40.7096356 17</gx:coord>
+<when>2013-05-31T11:03:19.082-07:00</when>
+<gx:coord>-73.9953846 40.7030876 20</gx:coord>
+<when>2013-05-31T11:05:44.558-07:00</when>
+<gx:coord>-73.9997498 40.7034816 11</gx:coord>
+<when>2013-05-31T11:08:51.730-07:00</when>
+<gx:coord>-73.9946531 40.7029923 11</gx:coord>
+<when>2013-05-31T11:12:01.220-07:00</when>
+<gx:coord>-73.9924711 40.7023631 18</gx:coord>
+<when>2013-05-31T11:17:04.565-07:00</when>
+<gx:coord>-73.9896236 40.7010097 21</gx:coord>
+<when>2013-05-31T11:20:01.930-07:00</when>
+<gx:coord>-73.9912183 40.7017907 24</gx:coord>
+<when>2013-05-31T11:21:40.477-07:00</when>
+<gx:coord>-73.9924085 40.7019766 20</gx:coord>
+<when>2013-05-31T11:23:05.173-07:00</when>
+<gx:coord>-73.9909294 40.7086538 20</gx:coord>
+<when>2013-05-31T11:25:59.981-07:00</when>
+<gx:coord>-74.0005947 40.7062193 15</gx:coord>
+<when>2013-05-31T11:28:15.974-07:00</when>
+<gx:coord>-73.9951436 40.704775 9</gx:coord>
+<when>2013-05-31T11:31:16.503-07:00</when>
+<gx:coord>-73.9977405 40.7075686 35</gx:coord>
+<when>2013-05-31T11:33:26.822-07:00</when>
+<gx:coord>-74.0002881 40.7081112 21</gx:coord>
+<when>2013-05-31T11:36:08.359-07:00</when>
+<gx:coord>-73.999623 40.7074345 21</gx:coord>
+<when>2013-05-31T11:43:57.931-07:00</when>
+<gx:coord>-74.0036096 40.7118653 21</gx:coord>
+<when>2013-05-31T11:46:28.220-07:00</when>
+<gx:coord>-74.0044616 40.7120942 23</gx:coord>
+<when>2013-05-31T11:49:37.321-07:00</when>
+<gx:coord>-74.0067628 40.7135781 21</gx:coord>
+<when>2013-05-31T11:52:34.989-07:00</when>
+<gx:coord>-74.0077182 40.7125916 24</gx:coord>
+<when>2013-05-31T12:05:29.826-07:00</when>
+<gx:coord>-74.0114328 40.7130807 12</gx:coord>
+<when>2013-05-31T12:08:23.116-07:00</when>
+<gx:coord>-74.012122 40.7121302 24</gx:coord>
+<when>2013-05-31T12:11:29.935-07:00</when>
+<gx:coord>-74.0120932 40.7128061 24</gx:coord>
+<when>2013-05-31T12:13:58.809-07:00</when>
+<gx:coord>-74.0135667 40.7123595 21</gx:coord>
+<when>2013-05-31T12:31:14.963-07:00</when>
+<gx:coord>-74.0063567 40.7194301 20</gx:coord>
+<when>2013-05-31T12:34:14.991-07:00</when>
+<gx:coord>-74.0068334 40.7204391 6</gx:coord>
+<when>2013-05-31T12:52:06.278-07:00</when>
+<gx:coord>-74.00154 40.7384146 18</gx:coord>
+<when>2013-05-31T12:54:11.974-07:00</when>
+<gx:coord>-74.0026644 40.7396572 19</gx:coord>
+<when>2013-05-31T12:57:04.718-07:00</when>
+<gx:coord>-74.0047489 40.7407517 19</gx:coord>
+<when>2013-05-31T13:03:06.716-07:00</when>
+<gx:coord>-74.0078159 40.7405419 19</gx:coord>
+<when>2013-05-31T13:11:06.757-07:00</when>
+<gx:coord>-74.0083406 40.7397517 5</gx:coord>
+<when>2013-05-31T13:24:32.154-07:00</when>
+<gx:coord>-74.008481 40.740723 16</gx:coord>
+<when>2013-05-31T13:56:24.710-07:00</when>
+<gx:coord>-74.0052711 40.7469757 20</gx:coord>
+<when>2013-05-31T13:58:39.642-07:00</when>
+<gx:coord>-74.0047554 40.7479859 20</gx:coord>
+<when>2013-05-31T14:04:44.007-07:00</when>
+<gx:coord>-74.0024093 40.7511964 41</gx:coord>
+<when>2013-05-31T14:26:29.368-07:00</when>
+<gx:coord>-73.9943066 40.750876 29</gx:coord>
+<when>2013-05-31T14:55:17.263-07:00</when>
+<gx:coord>-73.9592236 40.7164869 23</gx:coord>
+<when>2013-05-31T14:57:23.098-07:00</when>
+<gx:coord>-73.9606141 40.715746 21</gx:coord>
+<when>2013-05-31T14:59:04.160-07:00</when>
+<gx:coord>-73.9620769 40.7167572 19</gx:coord>
+<when>2013-05-31T15:01:32.261-07:00</when>
+<gx:coord>-73.9629521 40.7171994 17</gx:coord>
+<when>2013-05-31T17:23:47.087-07:00</when>
+<gx:coord>-73.9610404 40.7211359 11</gx:coord>
+<when>2013-05-31T17:28:58.449-07:00</when>
+<gx:coord>-73.9586306 40.7298516 16</gx:coord>
+<when>2013-05-31T17:31:58.552-07:00</when>
+<gx:coord>-73.9595972 40.7297435 15</gx:coord>
+<when>2013-05-31T17:34:26.149-07:00</when>
+<gx:coord>-73.9776408 40.7156018 17</gx:coord>
+<when>2013-05-31T17:37:25.274-07:00</when>
+<gx:coord>-73.962504 40.72982 6</gx:coord>
+<when>2013-05-31T17:40:12.262-07:00</when>
+<gx:coord>-73.9722176 40.7335792 11</gx:coord>
+<when>2013-05-31T17:43:12.358-07:00</when>
+<gx:coord>-73.9737255 40.7320391 12</gx:coord>
+<when>2013-05-31T17:45:16.459-07:00</when>
+<gx:coord>-73.9587862 40.7298237 15</gx:coord>
+<when>2013-05-31T17:48:16.489-07:00</when>
+<gx:coord>-73.9606292 40.7290688 15</gx:coord>
+</gx:Track>
+</Placemark>
+</Document>
+</kml>

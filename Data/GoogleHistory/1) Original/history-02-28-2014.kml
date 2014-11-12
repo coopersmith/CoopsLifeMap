@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Location history from 03/01/2014 to 03/31/2014</name>
+<open>1</open>
+<description/>
+<StyleMap id="multiTrack">
+<Pair>
+<key>normal</key>
+<styleUrl>#multiTrack_n</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#multiTrack_h</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="multiTrack_n">
+<IconStyle>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="multiTrack_h">
+<IconStyle>
+<scale>1.2</scale>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>8</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Latitude User</name>
+<description>Location history for Latitude User from 03/01/2014 to 03/31/2014</description>
+<styleUrl>#multiTrack</styleUrl>
+<gx:Track>
+<altitudeMode>clampToGround</altitudeMode>
+<when>2014-03-02T07:11:49.000-08:00</when>
+<gx:coord>-73.9630647 40.717808 6</gx:coord>
+<when>2014-03-05T18:29:21.459-08:00</when>
+<gx:coord>-73.9573019 40.7176184 17</gx:coord>
+<when>2014-03-13T04:56:32.626-07:00</when>
+<gx:coord>-73.9632076 40.7177727 5</gx:coord>
+<when>2014-03-14T06:30:55.515-07:00</when>
+<gx:coord>-73.9324626 40.8587192 35</gx:coord>
+<when>2014-03-14T10:02:33.388-07:00</when>
+<gx:coord>-73.9815258 40.7604698 31</gx:coord>
+<when>2014-03-14T10:03:43.405-07:00</when>
+<gx:coord>-73.9821888 40.7573973 34</gx:coord>
+<when>2014-03-14T10:12:16.051-07:00</when>
+<gx:coord>-73.9962888 40.7259888 21</gx:coord>
+<when>2014-03-18T20:40:50.686-07:00</when>
+<gx:coord>-73.9615629 40.7187529 11</gx:coord>
+<when>2014-03-21T04:36:01.972-07:00</when>
+<gx:coord>-73.9633008 40.7178087 5</gx:coord>
+<when>2014-03-21T04:36:40.772-07:00</when>
+<gx:coord>-73.9632391 40.7178211 9</gx:coord>
+<when>2014-03-21T04:39:19.043-07:00</when>
+<gx:coord>-73.9631634 40.7178359 9</gx:coord>
+<when>2014-03-21T06:34:40.229-07:00</when>
+<gx:coord>-73.9775994 40.7519344 16</gx:coord>
+<when>2014-03-21T07:36:39.009-07:00</when>
+<gx:coord>-73.9965184 40.7240669 11</gx:coord>
+<when>2014-03-22T20:40:29.007-07:00</when>
+<gx:coord>-73.9632389 40.7181134 6</gx:coord>
+<when>2014-03-26T19:45:41.240-07:00</when>
+<gx:coord>-73.9630266 40.7178452 11</gx:coord>
+<when>2014-03-26T19:54:20.466-07:00</when>
+<gx:coord>-73.962192 40.7176035 9</gx:coord>
+<when>2014-03-26T19:54:20.688-07:00</when>
+<gx:coord>-73.9631017 40.7178291 10</gx:coord>
+<when>2014-03-27T02:03:26.883-07:00</when>
+<gx:coord>-73.962979 40.7178379 8</gx:coord>
+<when>2014-03-27T02:03:27.567-07:00</when>
+<gx:coord>-73.962979 40.7178379 8</gx:coord>
+<when>2014-03-27T02:04:25.597-07:00</when>
+<gx:coord>-73.9630455 40.7178427 10</gx:coord>
+<when>2014-03-27T03:15:36.969-07:00</when>
+<gx:coord>-73.9411963 40.7219145 20</gx:coord>
+<when>2014-03-27T03:20:49.224-07:00</when>
+<gx:coord>-73.9042962 40.7263665 20</gx:coord>
+<when>2014-03-27T03:21:49.298-07:00</when>
+<gx:coord>-73.8838049 40.7284936 24</gx:coord>
+<when>2014-03-27T03:22:50.991-07:00</when>
+<gx:coord>-73.867554 40.7329385 19</gx:coord>
+<when>2014-03-27T03:25:55.971-07:00</when>
+<gx:coord>-73.8377386 40.72464 24</gx:coord>
+<when>2014-03-27T03:27:06.011-07:00</when>
+<gx:coord>-73.8333982 40.7217739 10</gx:coord>
+<when>2014-03-27T03:30:58.708-07:00</when>
+<gx:coord>-73.8095871 40.6901072 14</gx:coord>
+<when>2014-03-27T03:31:58.812-07:00</when>
+<gx:coord>-73.8041292 40.6794825 13</gx:coord>
+<when>2014-03-27T03:33:07.115-07:00</when>
+<gx:coord>-73.8000376 40.6677096 14</gx:coord>
+<when>2014-03-27T03:36:46.304-07:00</when>
+<gx:coord>-73.7894843 40.642459 14</gx:coord>
+<when>2014-03-27T11:58:11.816-07:00</when>
+<gx:coord>-81.0905114 32.0757775 12</gx:coord>
+<when>2014-03-27T17:44:34.128-07:00</when>
+<gx:coord>-81.0949968 32.0676183 13</gx:coord>
+<when>2014-03-28T05:51:00.008-07:00</when>
+<gx:coord>-81.0919595 32.0677438 11</gx:coord>
+<when>2014-03-28T05:52:18.999-07:00</when>
+<gx:coord>-81.092008 32.0679353 14</gx:coord>
+<when>2014-03-28T08:19:29.780-07:00</when>
+<gx:coord>-81.1629259 32.069994 7</gx:coord>
+<when>2014-03-28T08:25:17.716-07:00</when>
+<gx:coord>-81.2534405 32.0721265 0</gx:coord>
+<when>2014-03-28T08:25:47.079-07:00</when>
+<gx:coord>-81.2582869 32.0489649 3</gx:coord>
+<when>2014-03-28T08:36:21.953-07:00</when>
+<gx:coord>-81.3186716 31.9217642 16</gx:coord>
+<when>2014-03-28T08:37:31.972-07:00</when>
+<gx:coord>-81.3186716 31.9217642 16</gx:coord>
+<when>2014-03-28T08:38:41.993-07:00</when>
+<gx:coord>-81.3610502 31.8269782 16</gx:coord>
+<when>2014-03-28T08:41:24.693-07:00</when>
+<gx:coord>-81.3631467 31.8159873 3</gx:coord>
+<when>2014-03-28T08:54:26.456-07:00</when>
+<gx:coord>-81.4318011 31.5685959 3</gx:coord>
+<when>2014-03-28T08:55:36.475-07:00</when>
+<gx:coord>-81.4326458 31.5654109 3</gx:coord>
+<when>2014-03-28T08:56:46.496-07:00</when>
+<gx:coord>-81.4476045 31.5264679 3</gx:coord>
+<when>2014-03-28T09:01:10.463-07:00</when>
+<gx:coord>-81.445271 31.4480503 5</gx:coord>
+<when>2014-03-28T09:02:10.489-07:00</when>
+<gx:coord>-81.4438069 31.4299955 14</gx:coord>
+<when>2014-03-28T09:03:10.610-07:00</when>
+<gx:coord>-81.4440577 31.416117 8</gx:coord>
+<when>2014-03-28T09:11:43.426-07:00</when>
+<gx:coord>-81.4909087 31.2690301 9</gx:coord>
+<when>2014-03-28T09:12:53.449-07:00</when>
+<gx:coord>-81.5020416 31.2453326 9</gx:coord>
+<when>2014-03-28T09:13:53.512-07:00</when>
+<gx:coord>-81.5060411 31.2459415 9</gx:coord>
+<when>2014-03-28T09:17:04.992-07:00</when>
+<gx:coord>-81.4980763 31.2347642 8</gx:coord>
+<when>2014-03-28T09:18:05.084-07:00</when>
+<gx:coord>-81.4915532 31.2147343 11</gx:coord>
+<when>2014-03-28T09:19:05.136-07:00</when>
+<gx:coord>-81.4823291 31.2038242 8</gx:coord>
+<when>2014-03-28T09:33:07.145-07:00</when>
+<gx:coord>-81.4041617 31.1517203 2</gx:coord>
+<when>2014-03-28T09:34:17.171-07:00</when>
+<gx:coord>-81.403288 31.1518989 2</gx:coord>
+<when>2014-03-28T09:35:17.303-07:00</when>
+<gx:coord>-81.3959383 31.1374891 3</gx:coord>
+<when>2014-03-28T09:38:19.120-07:00</when>
+<gx:coord>-81.386827 31.1406757 4</gx:coord>
+<when>2014-03-28T09:39:27.293-07:00</when>
+<gx:coord>-81.3859836 31.1408184 4</gx:coord>
+<when>2014-03-28T09:40:30.539-07:00</when>
+<gx:coord>-81.389779 31.136156 4</gx:coord>
+<when>2014-03-28T11:00:35.460-07:00</when>
+<gx:coord>-81.4277534 31.1523946 6</gx:coord>
+<when>2014-03-28T11:01:36.154-07:00</when>
+<gx:coord>-81.3957019 31.1356257 5</gx:coord>
+<when>2014-03-28T11:28:41.888-07:00</when>
+<gx:coord>-81.4093457 31.0828119 5</gx:coord>
+<when>2014-03-28T11:29:51.937-07:00</when>
+<gx:coord>-81.4291976 31.1405997 5</gx:coord>
+<when>2014-03-28T11:31:01.960-07:00</when>
+<gx:coord>-81.4149156 31.1572077 5</gx:coord>
+<when>2014-03-28T11:36:40.937-07:00</when>
+<gx:coord>-81.4188319 31.1549304 5</gx:coord>
+<when>2014-03-28T11:37:50.992-07:00</when>
+<gx:coord>-81.4133516 31.0982218 5</gx:coord>
+<when>2014-03-28T11:50:27.525-07:00</when>
+<gx:coord>-81.3951972 31.1381432 3</gx:coord>
+</gx:Track>
+</Placemark>
+</Document>
+</kml>

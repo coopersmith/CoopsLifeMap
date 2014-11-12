@@ -1,0 +1,7 @@
+- place_name: New York, 10012, New York, United States
+  zoom: 13
+  center: 
+    - 40.72267296820733
+    - -73.99686813354492
+  tags: 
+    - userbookmark

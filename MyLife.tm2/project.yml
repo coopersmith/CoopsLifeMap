@@ -1,0 +1,31 @@
+_prefs: 
+  mapid: coopersmith.72286b3d
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -73.9727
+  - 40.7268
+  - 14
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 0
+name: CoopHeatMap
+source: "mapbox:///mapbox.mapbox-streets-v5,coopersmith.32e7be1e,coopersmith.0f080bc5,coopersmith.490562e0,coopersmith.353bfd40,coopersmith.f75cfa53"
+styles: 
+  - style.mss
+  - foursquare.mss
+  - runs.mss
+  - google.mss
+  - iPhonePhotos.mss
+template: ''

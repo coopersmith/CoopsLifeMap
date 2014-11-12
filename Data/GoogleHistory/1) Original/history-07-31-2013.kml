@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Location history from 08/01/2013 to 08/31/2013</name>
+<open>1</open>
+<description/>
+<StyleMap id="multiTrack">
+<Pair>
+<key>normal</key>
+<styleUrl>#multiTrack_n</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#multiTrack_h</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="multiTrack_n">
+<IconStyle>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="multiTrack_h">
+<IconStyle>
+<scale>1.2</scale>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>8</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Latitude User</name>
+<description>Location history for Latitude User from 08/01/2013 to 08/31/2013</description>
+<styleUrl>#multiTrack</styleUrl>
+<gx:Track>
+<altitudeMode>clampToGround</altitudeMode>
+<when>2013-08-01T14:04:16.249-07:00</when>
+<gx:coord>-73.9629824 40.7178272 12</gx:coord>
+<when>2013-08-01T15:07:32.956-07:00</when>
+<gx:coord>-73.9518634 40.7086202 13</gx:coord>
+<when>2013-08-01T15:07:34.976-07:00</when>
+<gx:coord>-73.9518634 40.7086202 13</gx:coord>
+<when>2013-08-01T15:09:04.287-07:00</when>
+<gx:coord>-73.9487794 40.7082645 16</gx:coord>
+<when>2013-08-01T15:11:54.476-07:00</when>
+<gx:coord>-73.9408762 40.7059338 19</gx:coord>
+<when>2013-08-01T15:14:11.425-07:00</when>
+<gx:coord>-73.9365184 40.7011022 24</gx:coord>
+<when>2013-08-01T15:17:10.335-07:00</when>
+<gx:coord>-73.9329419 40.6976083 23</gx:coord>
+<when>2013-08-01T15:19:57.485-07:00</when>
+<gx:coord>-73.9192727 40.6900988 26</gx:coord>
+<when>2013-08-01T15:22:57.654-07:00</when>
+<gx:coord>-73.9085181 40.6887922 24</gx:coord>
+<when>2013-08-01T15:25:12.070-07:00</when>
+<gx:coord>-73.9068061 40.6849069 24</gx:coord>
+<when>2013-08-01T15:28:12.085-07:00</when>
+<gx:coord>-73.9020961 40.6802275 33</gx:coord>
+</gx:Track>
+</Placemark>
+</Document>
+</kml>

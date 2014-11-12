@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="KML2GPX.COM" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <name><![CDATA[Location history from 02/15/2014 to 03/01/2014]]></name>
+        <desc><![CDATA[]]></desc>
+                </metadata>
+
+                
+                    
+                        
+                    <trk>
+                        <name><![CDATA[Latitude User]]></name>
+                        <desc><![CDATA[Location history for Latitude User from 02/15/2014 to 03/01/2014]]></desc>
+                        <number>1</number>
+                        <trkseg>
+                                                                                                                                                    
+                                    <trkpt lat="40.7178763" lon="-73.9629955">
+                                        <ele>7</ele>
+                                        <time>2014-02-15T21:28:52.350Z</time>
+                                        <name>1</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178455" lon="-73.9630424">
+                                        <ele>10</ele>
+                                        <time>2014-02-15T22:34:44.244Z</time>
+                                        <name>2</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7243243" lon="-73.9962544">
+                                        <ele>12</ele>
+                                        <time>2014-02-19T15:12:39.946Z</time>
+                                        <name>3</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7241277" lon="-73.99712">
+                                        <ele>12</ele>
+                                        <time>2014-02-19T15:13:39.982Z</time>
+                                        <name>4</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.724242" lon="-73.9972729">
+                                        <ele>13</ele>
+                                        <time>2014-02-22T05:32:31.956Z</time>
+                                        <name>5</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.709686" lon="-73.9601387">
+                                        <ele>18</ele>
+                                        <time>2014-02-22T06:02:34.402Z</time>
+                                        <name>6</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7156979" lon="-73.9662328">
+                                        <ele>13</ele>
+                                        <time>2014-02-22T06:07:11.635Z</time>
+                                        <name>7</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7176878" lon="-73.9634281">
+                                        <ele>10</ele>
+                                        <time>2014-02-22T06:08:11.715Z</time>
+                                        <name>8</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7175785" lon="-73.9631933">
+                                        <ele>11</ele>
+                                        <time>2014-02-23T17:52:29.091Z</time>
+                                        <name>9</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178447" lon="-73.9630184">
+                                        <ele>10</ele>
+                                        <time>2014-02-25T02:21:22.506Z</time>
+                                        <name>10</name>
+                                    </trkpt>
+                                                                                                
+                        </trkseg>
+                    </trk>
+                                                            
+</gpx>

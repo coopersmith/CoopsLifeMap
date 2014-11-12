@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">-73.9691,40.7155,14</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Strava_master_tracks","description":"","fields":{"name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","number":"Number","type":"String"}},{"id":"Strava_master_track_points","description":"","fields":{"track_fid":"Number","track_seg_id":"Number","track_seg_point_id":"Number","ele":"Number","time":"Object","magvar":"Number","geoidheight":"Number","name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","sym":"String","type":"String","fix":"String","sat":"Number","hdop":"Number","vdop":"Number","pdop":"Number","ageofdgpsdata":"Number","dgpsid":"Number"}},{"id":"october_2014_tracks","description":"","fields":{"name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","number":"Number","type":"String"}},{"id":"october_2014_track_points","description":"","fields":{"track_fid":"Number","track_seg_id":"Number","track_seg_point_id":"Number","ele":"Number","time":"Object","magvar":"Number","geoidheight":"Number","name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","sym":"String","type":"String","fix":"String","sat":"Number","hdop":"Number","vdop":"Number","pdop":"Number","ageofdgpsdata":"Number","dgpsid":"Number"}},{"id":"november_2014_tracks","description":"","fields":{"name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","number":"Number","type":"String"}},{"id":"november_2014_track_points","description":"","fields":{"track_fid":"Number","track_seg_id":"Number","track_seg_point_id":"Number","ele":"Number","time":"Object","magvar":"Number","geoidheight":"Number","name":"String","cmt":"String","desc":"String","src":"String","link1_href":"String","link1_text":"String","link1_type":"String","link2_href":"String","link2_text":"String","link2_type":"String","sym":"String","type":"String","fix":"String","sat":"Number","hdop":"Number","vdop":"Number","pdop":"Number","ageofdgpsdata":"Number","dgpsid":"Number"}}]}]]></Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">14</Parameter>
+  <Parameter name="name"><![CDATA[Strava]]></Parameter>
+</Parameters>
+
+
+<Layer name="Strava_master_tracks"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/Strava_master.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[tracks]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Strava_master_track_points"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/Strava_master.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[track_points]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="october_2014_tracks"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/october_2014.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[tracks]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="october_2014_track_points"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/october_2014.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[track_points]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="november_2014_tracks"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/november_2014.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[tracks]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="november_2014_track_points"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/november_2014.gpx]]></Parameter>
+       <Parameter name="layer"><![CDATA[track_points]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

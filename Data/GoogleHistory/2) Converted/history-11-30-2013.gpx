@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="yes"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="KML2GPX.COM" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <name><![CDATA[Location history from 12/01/2013 to 12/31/2013]]></name>
+        <desc><![CDATA[]]></desc>
+                </metadata>
+
+                
+                    
+                        
+                    <trk>
+                        <name><![CDATA[Latitude User]]></name>
+                        <desc><![CDATA[Location history for Latitude User from 12/01/2013 to 12/31/2013]]></desc>
+                        <number>1</number>
+                        <trkseg>
+                                                                                                                                                    
+                                    <trkpt lat="40.7177857" lon="-73.9630678">
+                                        <ele>12</ele>
+                                        <time>2013-12-02T14:58:04.318Z</time>
+                                        <name>1</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178109" lon="-73.9630707">
+                                        <ele>11</ele>
+                                        <time>2013-12-02T14:58:07.528Z</time>
+                                        <name>2</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7179744" lon="-73.9630877">
+                                        <ele>7</ele>
+                                        <time>2013-12-03T02:17:33.488Z</time>
+                                        <name>3</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7242992" lon="-73.9977404">
+                                        <ele>21</ele>
+                                        <time>2013-12-03T15:23:50.265Z</time>
+                                        <name>4</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7560726" lon="-73.966616">
+                                        <ele>12</ele>
+                                        <time>2013-12-03T23:53:30.778Z</time>
+                                        <name>5</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7560726" lon="-73.966616">
+                                        <ele>12</ele>
+                                        <time>2013-12-03T23:53:31.661Z</time>
+                                        <name>6</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7560662" lon="-73.9666265">
+                                        <ele>12</ele>
+                                        <time>2013-12-03T23:53:41.857Z</time>
+                                        <name>7</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7560407" lon="-73.966645">
+                                        <ele>14</ele>
+                                        <time>2013-12-03T23:54:05.010Z</time>
+                                        <name>8</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178821" lon="-73.9578572">
+                                        <ele>16</ele>
+                                        <time>2013-12-04T02:31:17.121Z</time>
+                                        <name>9</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7156893" lon="-73.9661545">
+                                        <ele>18</ele>
+                                        <time>2013-12-07T18:47:07.737Z</time>
+                                        <name>10</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178994" lon="-73.9630151">
+                                        <ele>9</ele>
+                                        <time>2013-12-13T02:18:01.996Z</time>
+                                        <name>11</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178979" lon="-73.9631961">
+                                        <ele>5</ele>
+                                        <time>2013-12-13T02:20:14.782Z</time>
+                                        <name>12</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7104141" lon="-73.9589372">
+                                        <ele>13</ele>
+                                        <time>2013-12-14T03:27:47.237Z</time>
+                                        <name>13</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7184521" lon="-73.9528147">
+                                        <ele>3</ele>
+                                        <time>2013-12-14T03:32:46.442Z</time>
+                                        <name>14</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7189423" lon="-73.9587098">
+                                        <ele>7</ele>
+                                        <time>2013-12-14T05:56:50.384Z</time>
+                                        <name>15</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7247358" lon="-73.9576475">
+                                        <ele>3</ele>
+                                        <time>2013-12-15T18:24:01.054Z</time>
+                                        <name>16</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7179894" lon="-73.9640278">
+                                        <ele>4</ele>
+                                        <time>2013-12-15T18:29:00.783Z</time>
+                                        <name>17</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.719561" lon="-73.9579412">
+                                        <ele>13</ele>
+                                        <time>2013-12-15T19:55:53.348Z</time>
+                                        <name>18</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7242073" lon="-73.9971209">
+                                        <ele>13</ele>
+                                        <time>2013-12-18T15:48:57.885Z</time>
+                                        <name>19</name>
+                                    </trkpt>
+                                                                                                                                                                                            
+                                    <trkpt lat="40.7178619" lon="-73.9630712">
+                                        <ele>10</ele>
+                                        <time>2013-12-21T06:23:43.332Z</time>
+                                        <name>20</name>
+                                    </trkpt>
+                                                                                                
+                        </trkseg>
+                    </trk>
+                                                            
+</gpx>

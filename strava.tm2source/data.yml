@@ -1,0 +1,190 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - -73.9691
+  - 40.7155
+  - 14
+description: ''
+Layer: 
+  - id: Strava_master_tracks
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/Strava_master.gpx
+      layer: tracks
+      type: ogr
+    description: ''
+    fields: 
+      cmt: String
+      desc: String
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      name: String
+      number: Number
+      src: String
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: Strava_master_track_points
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/Strava_master.gpx
+      layer: track_points
+      type: ogr
+    description: ''
+    fields: 
+      ageofdgpsdata: Number
+      cmt: String
+      desc: String
+      dgpsid: Number
+      ele: Number
+      fix: String
+      geoidheight: Number
+      hdop: Number
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      magvar: Number
+      name: String
+      pdop: Number
+      sat: Number
+      src: String
+      sym: String
+      time: Object
+      track_fid: Number
+      track_seg_id: Number
+      track_seg_point_id: Number
+      type: String
+      vdop: Number
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: october_2014_tracks
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/october_2014.gpx
+      layer: tracks
+      type: ogr
+    description: ''
+    fields: 
+      cmt: String
+      desc: String
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      name: String
+      number: Number
+      src: String
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: october_2014_track_points
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/october_2014.gpx
+      layer: track_points
+      type: ogr
+    description: ''
+    fields: 
+      ageofdgpsdata: Number
+      cmt: String
+      desc: String
+      dgpsid: Number
+      ele: Number
+      fix: String
+      geoidheight: Number
+      hdop: Number
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      magvar: Number
+      name: String
+      pdop: Number
+      sat: Number
+      src: String
+      sym: String
+      time: Object
+      track_fid: Number
+      track_seg_id: Number
+      track_seg_point_id: Number
+      type: String
+      vdop: Number
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: november_2014_tracks
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/november_2014.gpx
+      layer: tracks
+      type: ogr
+    description: ''
+    fields: 
+      cmt: String
+      desc: String
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      name: String
+      number: Number
+      src: String
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: november_2014_track_points
+    Datasource: 
+      file: /Users/cooper/Documents/Git/CoopsLifeMap/Data/Strava/november_2014.gpx
+      layer: track_points
+      type: ogr
+    description: ''
+    fields: 
+      ageofdgpsdata: Number
+      cmt: String
+      desc: String
+      dgpsid: Number
+      ele: Number
+      fix: String
+      geoidheight: Number
+      hdop: Number
+      link1_href: String
+      link1_text: String
+      link1_type: String
+      link2_href: String
+      link2_text: String
+      link2_type: String
+      magvar: Number
+      name: String
+      pdop: Number
+      sat: Number
+      src: String
+      sym: String
+      time: Object
+      track_fid: Number
+      track_seg_id: Number
+      track_seg_point_id: Number
+      type: String
+      vdop: Number
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+maxzoom: 14
+minzoom: 14
+name: Strava

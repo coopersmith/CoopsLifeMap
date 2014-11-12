@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Fri Oct 17 23:11:51 2014</snippet>
+    <LookAt>
+      <gx:TimeSpan>
+        <begin>2014-03-02T15:11:49Z</begin>
+        <end>2014-03-28T18:50:27.525Z</end>
+      </gx:TimeSpan>
+      <longitude>-77.647763</longitude>
+      <latitude>35.970766</latitude>
+      <range>1677107.705696</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>Latitude User</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Description</b> Location history for Latitude User from 03/01/2014 to 03/31/2014 </td></tr>
+<tr><td><b>Distance</b> 862.6 mi </td></tr>
+<tr><td><b>Min Alt</b> 0.000 ft </td></tr>
+<tr><td><b>Max Alt</b> 114.829 ft </td></tr>
+<tr><td><b>Max Speed</b> 813.7 mph </td></tr>
+<tr><td><b>Avg Speed</b> 1.4 mph </td></tr>
+<tr><td><b>Start Time</b>2014-03-02T15:11:49Z</td></tr>
+<tr><td><b>End Time</b>2014-03-28T18:50:27Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2014-03-02T15:11:49Z</begin>
+          <end>2014-03-28T18:50:27Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963065 </td></tr>
+<tr><td>Latitude: 40.717808 </td></tr>
+<tr><td>Altitude: 19.685 ft </td></tr>
+<tr><td>Heading: 311.8 </td></tr>
+<tr><td>Time: 2014-03-02T15:11:49Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963065</longitude>
+              <latitude>40.717808</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-02T15:11:49Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963065,40.717808,6.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.957302 </td></tr>
+<tr><td>Latitude: 40.717618 </td></tr>
+<tr><td>Altitude: 55.774 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 92.5 </td></tr>
+<tr><td>Time: 2014-03-06T02:29:21.459Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.957302</longitude>
+              <latitude>40.717618</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-06T02:29:21.459Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.957302,40.717618,17.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963208 </td></tr>
+<tr><td>Latitude: 40.717773 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 272.0 </td></tr>
+<tr><td>Time: 2014-03-13T11:56:32.626Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963208</longitude>
+              <latitude>40.717773</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-13T11:56:32.626Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963208,40.717773,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.932463 </td></tr>
+<tr><td>Latitude: 40.858719 </td></tr>
+<tr><td>Altitude: 114.829 ft </td></tr>
+<tr><td>Speed: 0.4 mph </td></tr>
+<tr><td>Heading: 9.4 </td></tr>
+<tr><td>Time: 2014-03-14T13:30:55.515Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.932463</longitude>
+              <latitude>40.858719</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-14T13:30:55.515Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.932463,40.858719,35.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.981526 </td></tr>
+<tr><td>Latitude: 40.760470 </td></tr>
+<tr><td>Altitude: 101.706 ft </td></tr>
+<tr><td>Speed: 2.1 mph </td></tr>
+<tr><td>Heading: 200.7 </td></tr>
+<tr><td>Time: 2014-03-14T17:02:33.388Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.981526</longitude>
+              <latitude>40.760470</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-14T17:02:33.388Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.981526,40.760470,31.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.982189 </td></tr>
+<tr><td>Latitude: 40.757397 </td></tr>
+<tr><td>Altitude: 111.549 ft </td></tr>
+<tr><td>Speed: 11.1 mph </td></tr>
+<tr><td>Heading: 189.3 </td></tr>
+<tr><td>Time: 2014-03-14T17:03:43.405Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.982189</longitude>
+              <latitude>40.757397</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-14T17:03:43.405Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.982189,40.757397,34.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.996289 </td></tr>
+<tr><td>Latitude: 40.725989 </td></tr>
+<tr><td>Altitude: 68.898 ft </td></tr>
+<tr><td>Speed: 16.1 mph </td></tr>
+<tr><td>Heading: 198.8 </td></tr>
+<tr><td>Time: 2014-03-14T17:12:16.051Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.996289</longitude>
+              <latitude>40.725989</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-14T17:12:16.051Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.996289,40.725989,21.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.961563 </td></tr>
+<tr><td>Latitude: 40.718753 </td></tr>
+<tr><td>Altitude: 36.089 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 105.4 </td></tr>
+<tr><td>Time: 2014-03-19T03:40:50.686Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.961563</longitude>
+              <latitude>40.718753</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-19T03:40:50.686Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.961563,40.718753,11.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963301 </td></tr>
+<tr><td>Latitude: 40.717809 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 234.4 </td></tr>
+<tr><td>Time: 2014-03-21T11:36:01.972Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963301</longitude>
+              <latitude>40.717809</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-21T11:36:01.972Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963301,40.717809,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963239 </td></tr>
+<tr><td>Latitude: 40.717821 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 0.3 mph </td></tr>
+<tr><td>Heading: 75.1 </td></tr>
+<tr><td>Time: 2014-03-21T11:36:40.772Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963239</longitude>
+              <latitude>40.717821</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-21T11:36:40.772Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963239,40.717821,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963163 </td></tr>
+<tr><td>Latitude: 40.717836 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 0.1 mph </td></tr>
+<tr><td>Heading: 75.5 </td></tr>
+<tr><td>Time: 2014-03-21T11:39:19.043Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963163</longitude>
+              <latitude>40.717836</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-21T11:39:19.043Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963163,40.717836,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.977599 </td></tr>
+<tr><td>Latitude: 40.751934 </td></tr>
+<tr><td>Altitude: 52.493 ft </td></tr>
+<tr><td>Speed: 1.3 mph </td></tr>
+<tr><td>Heading: 342.2 </td></tr>
+<tr><td>Time: 2014-03-21T13:34:40.229Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.977599</longitude>
+              <latitude>40.751934</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-21T13:34:40.229Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.977599,40.751934,16.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.996518 </td></tr>
+<tr><td>Latitude: 40.724067 </td></tr>
+<tr><td>Altitude: 36.089 ft </td></tr>
+<tr><td>Speed: 2.1 mph </td></tr>
+<tr><td>Heading: 207.2 </td></tr>
+<tr><td>Time: 2014-03-21T14:36:39.009Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.996518</longitude>
+              <latitude>40.724067</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-21T14:36:39.009Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.996518,40.724067,11.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963239 </td></tr>
+<tr><td>Latitude: 40.718113 </td></tr>
+<tr><td>Altitude: 19.685 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 103.3 </td></tr>
+<tr><td>Time: 2014-03-23T03:40:29.007Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963239</longitude>
+              <latitude>40.718113</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-23T03:40:29.007Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963239,40.718113,6.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963027 </td></tr>
+<tr><td>Latitude: 40.717845 </td></tr>
+<tr><td>Altitude: 36.089 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 149.0 </td></tr>
+<tr><td>Time: 2014-03-27T02:45:41.240Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963027</longitude>
+              <latitude>40.717845</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T02:45:41.240Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963027,40.717845,11.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.962192 </td></tr>
+<tr><td>Latitude: 40.717604 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 0.3 mph </td></tr>
+<tr><td>Heading: 110.9 </td></tr>
+<tr><td>Time: 2014-03-27T02:54:20.466Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.962192</longitude>
+              <latitude>40.717604</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T02:54:20.466Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.962192,40.717604,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963102 </td></tr>
+<tr><td>Latitude: 40.717829 </td></tr>
+<tr><td>Altitude: 32.808 ft </td></tr>
+<tr><td>Speed: 813.7 mph </td></tr>
+<tr><td>Heading: 288.1 </td></tr>
+<tr><td>Time: 2014-03-27T02:54:20.688Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963102</longitude>
+              <latitude>40.717829</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T02:54:20.688Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963102,40.717829,10.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.962979 </td></tr>
+<tr><td>Latitude: 40.717838 </td></tr>
+<tr><td>Altitude: 26.247 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 84.6 </td></tr>
+<tr><td>Time: 2014-03-27T09:03:26.883Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.962979</longitude>
+              <latitude>40.717838</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T09:03:26.883Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.962979,40.717838,8.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.962979 </td></tr>
+<tr><td>Latitude: 40.717838 </td></tr>
+<tr><td>Altitude: 26.247 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2014-03-27T09:03:27.567Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.962979</longitude>
+              <latitude>40.717838</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T09:03:27.567Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.962979,40.717838,8.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.963046 </td></tr>
+<tr><td>Latitude: 40.717843 </td></tr>
+<tr><td>Altitude: 32.808 ft </td></tr>
+<tr><td>Speed: 0.2 mph </td></tr>
+<tr><td>Heading: 275.4 </td></tr>
+<tr><td>Time: 2014-03-27T09:04:25.597Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.963046</longitude>
+              <latitude>40.717843</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T09:04:25.597Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.963046,40.717843,10.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.941196 </td></tr>
+<tr><td>Latitude: 40.721914 </td></tr>
+<tr><td>Altitude: 65.617 ft </td></tr>
+<tr><td>Speed: 1.0 mph </td></tr>
+<tr><td>Heading: 76.2 </td></tr>
+<tr><td>Time: 2014-03-27T10:15:36.969Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.941196</longitude>
+              <latitude>40.721914</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:15:36.969Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.941196,40.721914,20.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.904296 </td></tr>
+<tr><td>Latitude: 40.726366 </td></tr>
+<tr><td>Altitude: 65.617 ft </td></tr>
+<tr><td>Speed: 22.6 mph </td></tr>
+<tr><td>Heading: 80.9 </td></tr>
+<tr><td>Time: 2014-03-27T10:20:49.224Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.904296</longitude>
+              <latitude>40.726366</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:20:49.224Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.904296,40.726366,20.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.883805 </td></tr>
+<tr><td>Latitude: 40.728494 </td></tr>
+<tr><td>Altitude: 78.740 ft </td></tr>
+<tr><td>Speed: 65.0 mph </td></tr>
+<tr><td>Heading: 82.2 </td></tr>
+<tr><td>Time: 2014-03-27T10:21:49.298Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.883805</longitude>
+              <latitude>40.728494</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:21:49.298Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.883805,40.728494,24.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.867554 </td></tr>
+<tr><td>Latitude: 40.732939 </td></tr>
+<tr><td>Altitude: 62.336 ft </td></tr>
+<tr><td>Speed: 52.8 mph </td></tr>
+<tr><td>Heading: 70.1 </td></tr>
+<tr><td>Time: 2014-03-27T10:22:50.991Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.867554</longitude>
+              <latitude>40.732939</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:22:50.991Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.867554,40.732939,19.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.837739 </td></tr>
+<tr><td>Latitude: 40.724640 </td></tr>
+<tr><td>Altitude: 78.740 ft </td></tr>
+<tr><td>Speed: 32.4 mph </td></tr>
+<tr><td>Heading: 110.2 </td></tr>
+<tr><td>Time: 2014-03-27T10:25:55.971Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.837739</longitude>
+              <latitude>40.724640</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:25:55.971Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.837739,40.724640,24.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>26</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.833398 </td></tr>
+<tr><td>Latitude: 40.721774 </td></tr>
+<tr><td>Altitude: 32.808 ft </td></tr>
+<tr><td>Speed: 15.5 mph </td></tr>
+<tr><td>Heading: 131.1 </td></tr>
+<tr><td>Time: 2014-03-27T10:27:06.011Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.833398</longitude>
+              <latitude>40.721774</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:27:06.011Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.833398,40.721774,10.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>27</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.809587 </td></tr>
+<tr><td>Latitude: 40.690107 </td></tr>
+<tr><td>Altitude: 45.932 ft </td></tr>
+<tr><td>Speed: 39.0 mph </td></tr>
+<tr><td>Heading: 150.3 </td></tr>
+<tr><td>Time: 2014-03-27T10:30:58.708Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.809587</longitude>
+              <latitude>40.690107</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:30:58.708Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.809587,40.690107,14.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>28</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.804129 </td></tr>
+<tr><td>Latitude: 40.679482 </td></tr>
+<tr><td>Altitude: 42.651 ft </td></tr>
+<tr><td>Speed: 47.2 mph </td></tr>
+<tr><td>Heading: 158.7 </td></tr>
+<tr><td>Time: 2014-03-27T10:31:58.812Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.804129</longitude>
+              <latitude>40.679482</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:31:58.812Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.804129,40.679482,13.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>29</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.800038 </td></tr>
+<tr><td>Latitude: 40.667710 </td></tr>
+<tr><td>Altitude: 45.932 ft </td></tr>
+<tr><td>Speed: 44.4 mph </td></tr>
+<tr><td>Heading: 165.2 </td></tr>
+<tr><td>Time: 2014-03-27T10:33:07.115Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.800038</longitude>
+              <latitude>40.667710</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:33:07.115Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.800038,40.667710,14.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>30</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -73.789484 </td></tr>
+<tr><td>Latitude: 40.642459 </td></tr>
+<tr><td>Altitude: 45.932 ft </td></tr>
+<tr><td>Speed: 30.1 mph </td></tr>
+<tr><td>Heading: 162.4 </td></tr>
+<tr><td>Time: 2014-03-27T10:36:46.304Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-73.789484</longitude>
+              <latitude>40.642459</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T10:36:46.304Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-73.789484,40.642459,14.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>31</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.090511 </td></tr>
+<tr><td>Latitude: 32.075778 </td></tr>
+<tr><td>Altitude: 39.370 ft </td></tr>
+<tr><td>Speed: 85.9 mph </td></tr>
+<tr><td>Heading: 216.7 </td></tr>
+<tr><td>Time: 2014-03-27T18:58:11.816Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.090511</longitude>
+              <latitude>32.075778</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-27T18:58:11.816Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.090511,32.075778,12.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>32</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.094997 </td></tr>
+<tr><td>Latitude: 32.067618 </td></tr>
+<tr><td>Altitude: 42.651 ft </td></tr>
+<tr><td>Speed: 0.1 mph </td></tr>
+<tr><td>Heading: 205.0 </td></tr>
+<tr><td>Time: 2014-03-28T00:44:34.128Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.094997</longitude>
+              <latitude>32.067618</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T00:44:34.128Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.094997,32.067618,13.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>33</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.091960 </td></tr>
+<tr><td>Latitude: 32.067744 </td></tr>
+<tr><td>Altitude: 36.089 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 87.2 </td></tr>
+<tr><td>Time: 2014-03-28T12:51:00.008Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.091960</longitude>
+              <latitude>32.067744</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T12:51:00.008Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.091960,32.067744,11.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>34</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.092008 </td></tr>
+<tr><td>Latitude: 32.067935 </td></tr>
+<tr><td>Altitude: 45.932 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 347.9 </td></tr>
+<tr><td>Time: 2014-03-28T12:52:18.999Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.092008</longitude>
+              <latitude>32.067935</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T12:52:18.999Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.092008,32.067935,14.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>35</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.162926 </td></tr>
+<tr><td>Latitude: 32.069994 </td></tr>
+<tr><td>Altitude: 22.966 ft </td></tr>
+<tr><td>Speed: 1.7 mph </td></tr>
+<tr><td>Heading: 272.0 </td></tr>
+<tr><td>Time: 2014-03-28T15:19:29.780Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.162926</longitude>
+              <latitude>32.069994</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:19:29.780Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.162926,32.069994,7.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>36</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.253440 </td></tr>
+<tr><td>Latitude: 32.072127 </td></tr>
+<tr><td>Speed: 54.9 mph </td></tr>
+<tr><td>Heading: 271.6 </td></tr>
+<tr><td>Time: 2014-03-28T15:25:17.716Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.253440</longitude>
+              <latitude>32.072127</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:25:17.716Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.253440,32.072127</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>37</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.258287 </td></tr>
+<tr><td>Latitude: 32.048965 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 199.5 mph </td></tr>
+<tr><td>Heading: 190.1 </td></tr>
+<tr><td>Time: 2014-03-28T15:25:47.079Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.258287</longitude>
+              <latitude>32.048965</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:25:47.079Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.258287,32.048965,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>38</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.318672 </td></tr>
+<tr><td>Latitude: 31.921764 </td></tr>
+<tr><td>Altitude: 52.493 ft </td></tr>
+<tr><td>Speed: 53.8 mph </td></tr>
+<tr><td>Heading: 201.9 </td></tr>
+<tr><td>Time: 2014-03-28T15:36:21.953Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.318672</longitude>
+              <latitude>31.921764</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:36:21.953Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.318672,31.921764,16.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>39</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.318672 </td></tr>
+<tr><td>Latitude: 31.921764 </td></tr>
+<tr><td>Altitude: 52.493 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2014-03-28T15:37:31.972Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.318672</longitude>
+              <latitude>31.921764</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:37:31.972Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.318672,31.921764,16.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>40</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.361050 </td></tr>
+<tr><td>Latitude: 31.826978 </td></tr>
+<tr><td>Altitude: 52.493 ft </td></tr>
+<tr><td>Speed: 360.6 mph </td></tr>
+<tr><td>Heading: 200.8 </td></tr>
+<tr><td>Time: 2014-03-28T15:38:41.993Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.361050</longitude>
+              <latitude>31.826978</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:38:41.993Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.361050,31.826978,16.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>41</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.363147 </td></tr>
+<tr><td>Latitude: 31.815987 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 17.0 mph </td></tr>
+<tr><td>Heading: 189.2 </td></tr>
+<tr><td>Time: 2014-03-28T15:41:24.693Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.363147</longitude>
+              <latitude>31.815987</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:41:24.693Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.363147,31.815987,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>42</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.431801 </td></tr>
+<tr><td>Latitude: 31.568596 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 81.0 mph </td></tr>
+<tr><td>Heading: 193.3 </td></tr>
+<tr><td>Time: 2014-03-28T15:54:26.456Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.431801</longitude>
+              <latitude>31.568596</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:54:26.456Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.431801,31.568596,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>43</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.432646 </td></tr>
+<tr><td>Latitude: 31.565411 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 11.6 mph </td></tr>
+<tr><td>Heading: 192.7 </td></tr>
+<tr><td>Time: 2014-03-28T15:55:36.475Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.432646</longitude>
+              <latitude>31.565411</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:55:36.475Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.432646,31.565411,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>44</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.447604 </td></tr>
+<tr><td>Latitude: 31.526468 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 145.7 mph </td></tr>
+<tr><td>Heading: 198.1 </td></tr>
+<tr><td>Time: 2014-03-28T15:56:46.496Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.447604</longitude>
+              <latitude>31.526468</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T15:56:46.496Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.447604,31.526468,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>45</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.445271 </td></tr>
+<tr><td>Latitude: 31.448050 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 74.0 mph </td></tr>
+<tr><td>Heading: 178.5 </td></tr>
+<tr><td>Time: 2014-03-28T16:01:10.463Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.445271</longitude>
+              <latitude>31.448050</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:01:10.463Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.445271,31.448050,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>46</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.443807 </td></tr>
+<tr><td>Latitude: 31.429996 </td></tr>
+<tr><td>Altitude: 45.932 ft </td></tr>
+<tr><td>Speed: 75.1 mph </td></tr>
+<tr><td>Heading: 176.0 </td></tr>
+<tr><td>Time: 2014-03-28T16:02:10.489Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.443807</longitude>
+              <latitude>31.429996</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:02:10.489Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.443807,31.429996,14.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>47</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.444058 </td></tr>
+<tr><td>Latitude: 31.416117 </td></tr>
+<tr><td>Altitude: 26.247 ft </td></tr>
+<tr><td>Speed: 57.5 mph </td></tr>
+<tr><td>Heading: 180.9 </td></tr>
+<tr><td>Time: 2014-03-28T16:03:10.610Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.444058</longitude>
+              <latitude>31.416117</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:03:10.610Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.444058,31.416117,8.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>48</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.490909 </td></tr>
+<tr><td>Latitude: 31.269030 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 74.0 mph </td></tr>
+<tr><td>Heading: 195.2 </td></tr>
+<tr><td>Time: 2014-03-28T16:11:43.426Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.490909</longitude>
+              <latitude>31.269030</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:11:43.426Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.490909,31.269030,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>49</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.502042 </td></tr>
+<tr><td>Latitude: 31.245333 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 90.8 mph </td></tr>
+<tr><td>Heading: 201.9 </td></tr>
+<tr><td>Time: 2014-03-28T16:12:53.449Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.502042</longitude>
+              <latitude>31.245333</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:12:53.449Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.502042,31.245333,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>50</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.506041 </td></tr>
+<tr><td>Latitude: 31.245942 </td></tr>
+<tr><td>Altitude: 29.528 ft </td></tr>
+<tr><td>Speed: 14.4 mph </td></tr>
+<tr><td>Heading: 280.1 </td></tr>
+<tr><td>Time: 2014-03-28T16:13:53.512Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.506041</longitude>
+              <latitude>31.245942</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:13:53.512Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.506041,31.245942,9.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>51</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.498076 </td></tr>
+<tr><td>Latitude: 31.234764 </td></tr>
+<tr><td>Altitude: 26.247 ft </td></tr>
+<tr><td>Speed: 17.0 mph </td></tr>
+<tr><td>Heading: 148.6 </td></tr>
+<tr><td>Time: 2014-03-28T16:17:04.992Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.498076</longitude>
+              <latitude>31.234764</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:17:04.992Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.498076,31.234764,8.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>52</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.491553 </td></tr>
+<tr><td>Latitude: 31.214734 </td></tr>
+<tr><td>Altitude: 36.089 ft </td></tr>
+<tr><td>Speed: 86.2 mph </td></tr>
+<tr><td>Heading: 164.4 </td></tr>
+<tr><td>Time: 2014-03-28T16:18:05.084Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.491553</longitude>
+              <latitude>31.214734</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:18:05.084Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.491553,31.214734,11.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>53</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.482329 </td></tr>
+<tr><td>Latitude: 31.203824 </td></tr>
+<tr><td>Altitude: 26.247 ft </td></tr>
+<tr><td>Speed: 55.8 mph </td></tr>
+<tr><td>Heading: 144.1 </td></tr>
+<tr><td>Time: 2014-03-28T16:19:05.136Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.482329</longitude>
+              <latitude>31.203824</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:19:05.136Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.482329,31.203824,8.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>54</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.404162 </td></tr>
+<tr><td>Latitude: 31.151720 </td></tr>
+<tr><td>Altitude: 6.562 ft </td></tr>
+<tr><td>Speed: 25.1 mph </td></tr>
+<tr><td>Heading: 127.9 </td></tr>
+<tr><td>Time: 2014-03-28T16:33:07.145Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.404162</longitude>
+              <latitude>31.151720</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:33:07.145Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.404162,31.151720,2.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>55</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.403288 </td></tr>
+<tr><td>Latitude: 31.151899 </td></tr>
+<tr><td>Altitude: 6.562 ft </td></tr>
+<tr><td>Speed: 2.7 mph </td></tr>
+<tr><td>Heading: 76.6 </td></tr>
+<tr><td>Time: 2014-03-28T16:34:17.171Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.403288</longitude>
+              <latitude>31.151899</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:34:17.171Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.403288,31.151899,2.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>56</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.395938 </td></tr>
+<tr><td>Latitude: 31.137489 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 65.1 mph </td></tr>
+<tr><td>Heading: 156.4 </td></tr>
+<tr><td>Time: 2014-03-28T16:35:17.303Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.395938</longitude>
+              <latitude>31.137489</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:35:17.303Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.395938,31.137489,3.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>57</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.386827 </td></tr>
+<tr><td>Latitude: 31.140676 </td></tr>
+<tr><td>Altitude: 13.123 ft </td></tr>
+<tr><td>Speed: 11.5 mph </td></tr>
+<tr><td>Heading: 67.8 </td></tr>
+<tr><td>Time: 2014-03-28T16:38:19.120Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.386827</longitude>
+              <latitude>31.140676</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:38:19.120Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.386827,31.140676,4.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>58</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.385984 </td></tr>
+<tr><td>Latitude: 31.140818 </td></tr>
+<tr><td>Altitude: 13.123 ft </td></tr>
+<tr><td>Speed: 2.7 mph </td></tr>
+<tr><td>Heading: 78.8 </td></tr>
+<tr><td>Time: 2014-03-28T16:39:27.293Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.385984</longitude>
+              <latitude>31.140818</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:39:27.293Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.385984,31.140818,4.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>59</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.389779 </td></tr>
+<tr><td>Latitude: 31.136156 </td></tr>
+<tr><td>Altitude: 13.123 ft </td></tr>
+<tr><td>Speed: 22.4 mph </td></tr>
+<tr><td>Heading: 214.9 </td></tr>
+<tr><td>Time: 2014-03-28T16:40:30.539Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.389779</longitude>
+              <latitude>31.136156</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T16:40:30.539Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.389779,31.136156,4.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>60</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.427753 </td></tr>
+<tr><td>Latitude: 31.152395 </td></tr>
+<tr><td>Altitude: 19.685 ft </td></tr>
+<tr><td>Speed: 1.9 mph </td></tr>
+<tr><td>Heading: 296.6 </td></tr>
+<tr><td>Time: 2014-03-28T18:00:35.460Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.427753</longitude>
+              <latitude>31.152395</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:00:35.460Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.427753,31.152395,6.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>61</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.395702 </td></tr>
+<tr><td>Latitude: 31.135626 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 131.9 mph </td></tr>
+<tr><td>Heading: 121.4 </td></tr>
+<tr><td>Time: 2014-03-28T18:01:36.154Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.395702</longitude>
+              <latitude>31.135626</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:01:36.154Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.395702,31.135626,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>62</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.409346 </td></tr>
+<tr><td>Latitude: 31.082812 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 8.3 mph </td></tr>
+<tr><td>Heading: 192.5 </td></tr>
+<tr><td>Time: 2014-03-28T18:28:41.888Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.409346</longitude>
+              <latitude>31.082812</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:28:41.888Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.409346,31.082812,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>63</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.429198 </td></tr>
+<tr><td>Latitude: 31.140600 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 214.1 mph </td></tr>
+<tr><td>Heading: 343.6 </td></tr>
+<tr><td>Time: 2014-03-28T18:29:51.937Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.429198</longitude>
+              <latitude>31.140600</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:29:51.937Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.429198,31.140600,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>64</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.414916 </td></tr>
+<tr><td>Latitude: 31.157208 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 73.3 mph </td></tr>
+<tr><td>Heading: 36.3 </td></tr>
+<tr><td>Time: 2014-03-28T18:31:01.960Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.414916</longitude>
+              <latitude>31.157208</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:31:01.960Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.414916,31.157208,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>65</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.418832 </td></tr>
+<tr><td>Latitude: 31.154930 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 235.8 </td></tr>
+<tr><td>Time: 2014-03-28T18:36:40.937Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.418832</longitude>
+              <latitude>31.154930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:36:40.937Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.418832,31.154930,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>66</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.413352 </td></tr>
+<tr><td>Latitude: 31.098222 </td></tr>
+<tr><td>Altitude: 16.404 ft </td></tr>
+<tr><td>Speed: 202.3 mph </td></tr>
+<tr><td>Heading: 175.3 </td></tr>
+<tr><td>Time: 2014-03-28T18:37:50.992Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.413352</longitude>
+              <latitude>31.098222</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:37:50.992Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.413352,31.098222,5.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>67</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -81.395197 </td></tr>
+<tr><td>Latitude: 31.138143 </td></tr>
+<tr><td>Altitude: 9.843 ft </td></tr>
+<tr><td>Speed: 14.1 mph </td></tr>
+<tr><td>Heading: 21.3 </td></tr>
+<tr><td>Time: 2014-03-28T18:50:27.525Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-81.395197</longitude>
+              <latitude>31.138143</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2014-03-28T18:50:27.525Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-81.395197,31.138143,3.00</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+-73.963065,40.717808,6.00
+-73.957302,40.717618,17.00
+-73.963208,40.717773,5.00
+-73.932463,40.858719,35.00
+-73.981526,40.760470,31.00
+-73.982189,40.757397,34.00
+-73.996289,40.725989,21.00
+-73.961563,40.718753,11.00
+-73.963301,40.717809,5.00
+-73.963239,40.717821,9.00
+-73.963163,40.717836,9.00
+-73.977599,40.751934,16.00
+-73.996518,40.724067,11.00
+-73.963239,40.718113,6.00
+-73.963027,40.717845,11.00
+-73.962192,40.717604,9.00
+-73.963102,40.717829,10.00
+-73.962979,40.717838,8.00
+-73.962979,40.717838,8.00
+-73.963046,40.717843,10.00
+-73.941196,40.721914,20.00
+-73.904296,40.726366,20.00
+-73.883805,40.728494,24.00
+-73.867554,40.732939,19.00
+-73.837739,40.724640,24.00
+-73.833398,40.721774,10.00
+-73.809587,40.690107,14.00
+-73.804129,40.679482,13.00
+-73.800038,40.667710,14.00
+-73.789484,40.642459,14.00
+-81.090511,32.075778,12.00
+-81.094997,32.067618,13.00
+-81.091960,32.067744,11.00
+-81.092008,32.067935,14.00
+-81.162926,32.069994,7.00
+-81.253440,32.072127
+-81.258287,32.048965,3.00
+-81.318672,31.921764,16.00
+-81.318672,31.921764,16.00
+-81.361050,31.826978,16.00
+-81.363147,31.815987,3.00
+-81.431801,31.568596,3.00
+-81.432646,31.565411,3.00
+-81.447604,31.526468,3.00
+-81.445271,31.448050,5.00
+-81.443807,31.429996,14.00
+-81.444058,31.416117,8.00
+-81.490909,31.269030,9.00
+-81.502042,31.245333,9.00
+-81.506041,31.245942,9.00
+-81.498076,31.234764,8.00
+-81.491553,31.214734,11.00
+-81.482329,31.203824,8.00
+-81.404162,31.151720,2.00
+-81.403288,31.151899,2.00
+-81.395938,31.137489,3.00
+-81.386827,31.140676,4.00
+-81.385984,31.140818,4.00
+-81.389779,31.136156,4.00
+-81.427753,31.152395,6.00
+-81.395702,31.135626,5.00
+-81.409346,31.082812,5.00
+-81.429198,31.140600,5.00
+-81.414916,31.157208,5.00
+-81.418832,31.154930,5.00
+-81.413352,31.098222,5.00
+-81.395197,31.138143,3.00
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

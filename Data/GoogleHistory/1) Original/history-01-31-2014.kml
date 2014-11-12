@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Location history from 02/01/2014 to 02/15/2014</name>
+<open>1</open>
+<description/>
+<StyleMap id="multiTrack">
+<Pair>
+<key>normal</key>
+<styleUrl>#multiTrack_n</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#multiTrack_h</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="multiTrack_n">
+<IconStyle>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="multiTrack_h">
+<IconStyle>
+<scale>1.2</scale>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>8</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Latitude User</name>
+<description>Location history for Latitude User from 02/01/2014 to 02/15/2014</description>
+<styleUrl>#multiTrack</styleUrl>
+<gx:Track>
+<altitudeMode>clampToGround</altitudeMode>
+<when>2014-02-01T21:25:32.873-08:00</when>
+<gx:coord>-73.9631343 40.7178951 7</gx:coord>
+<when>2014-02-04T11:33:46.435-08:00</when>
+<gx:coord>-73.9970386 40.7241725 13</gx:coord>
+<when>2014-02-04T11:33:47.472-08:00</when>
+<gx:coord>-73.9970273 40.7241763 13</gx:coord>
+<when>2014-02-07T19:50:17.584-08:00</when>
+<gx:coord>-73.9901828 40.7591116 20</gx:coord>
+<when>2014-02-07T19:54:35.701-08:00</when>
+<gx:coord>-73.9836698 40.7563414 20</gx:coord>
+<when>2014-02-07T19:55:35.907-08:00</when>
+<gx:coord>-73.9817239 40.7551633 21</gx:coord>
+<when>2014-02-07T19:56:36.058-08:00</when>
+<gx:coord>-73.9791665 40.7544014 23</gx:coord>
+<when>2014-02-08T11:16:48.991-08:00</when>
+<gx:coord>-73.9547166 40.7337516 4</gx:coord>
+<when>2014-02-08T11:17:49.023-08:00</when>
+<gx:coord>-73.9525578 40.7355565 4</gx:coord>
+<when>2014-02-08T11:20:46.046-08:00</when>
+<gx:coord>-73.9518117 40.7430501 3</gx:coord>
+<when>2014-02-08T11:35:43.020-08:00</when>
+<gx:coord>-73.9208946 40.743241 21</gx:coord>
+<when>2014-02-08T11:36:43.053-08:00</when>
+<gx:coord>-73.9160055 40.7430333 25</gx:coord>
+<when>2014-02-08T11:39:42.082-08:00</when>
+<gx:coord>-73.9016178 40.7454666 23</gx:coord>
+<when>2014-02-08T11:40:42.142-08:00</when>
+<gx:coord>-73.8964253 40.7462654 24</gx:coord>
+<when>2014-02-08T11:41:42.176-08:00</when>
+<gx:coord>-73.8912762 40.7466893 25</gx:coord>
+<when>2014-02-08T11:44:47.653-08:00</when>
+<gx:coord>-73.8759579 40.7484693 25</gx:coord>
+<when>2014-02-08T11:45:47.703-08:00</when>
+<gx:coord>-73.8699471 40.7490247 25</gx:coord>
+<when>2014-02-08T11:46:47.737-08:00</when>
+<gx:coord>-73.8651057 40.7496139 23</gx:coord>
+<when>2014-02-08T11:50:24.380-08:00</when>
+<gx:coord>-73.8506522 40.7533273 8</gx:coord>
+<when>2014-02-08T11:51:18.393-08:00</when>
+<gx:coord>-73.8453457 40.7546466 10</gx:coord>
+<when>2014-02-09T06:39:26.771-08:00</when>
+<gx:coord>-73.9631758 40.7178082 7</gx:coord>
+<when>2014-02-09T06:40:36.950-08:00</when>
+<gx:coord>-73.9630532 40.71785 10</gx:coord>
+<when>2014-02-09T18:58:51.702-08:00</when>
+<gx:coord>-73.9631326 40.7178191 3</gx:coord>
+<when>2014-02-09T18:59:19.653-08:00</when>
+<gx:coord>-73.9630891 40.7177987 5</gx:coord>
+<when>2014-02-09T19:00:49.558-08:00</when>
+<gx:coord>-73.9630495 40.7178447 10</gx:coord>
+<when>2014-02-10T21:10:16.376-08:00</when>
+<gx:coord>-73.9631343 40.7181408 5</gx:coord>
+<when>2014-02-10T21:10:25.331-08:00</when>
+<gx:coord>-73.9630817 40.7179835 11</gx:coord>
+<when>2014-02-11T21:21:21.828-08:00</when>
+<gx:coord>-73.9630007 40.7178686 9</gx:coord>
+<when>2014-02-11T21:21:22.907-08:00</when>
+<gx:coord>-73.9631118 40.7179237 6</gx:coord>
+<when>2014-02-11T21:21:30.031-08:00</when>
+<gx:coord>-73.9630004 40.7178578 8</gx:coord>
+<when>2014-02-12T18:07:53.277-08:00</when>
+<gx:coord>-73.9688468 40.7567721 26</gx:coord>
+<when>2014-02-13T05:49:55.210-08:00</when>
+<gx:coord>-73.9632385 40.7177154 6</gx:coord>
+<when>2014-02-13T11:25:49.701-08:00</when>
+<gx:coord>-73.963059 40.7179479 6</gx:coord>
+</gx:Track>
+</Placemark>
+</Document>
+</kml>
